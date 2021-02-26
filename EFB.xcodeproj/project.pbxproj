@@ -3,19 +3,120 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611FCCC025AF75F300932E36 /* FlightCurrencyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611FCCBF25AF75F300932E36 /* FlightCurrencyViewCell.swift */; };
+		611FCCC225AF764800932E36 /* FlightLegViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611FCCC125AF764800932E36 /* FlightLegViewCell.swift */; };
+		612E8B6F23B24E40000C4C92 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E8B6E23B24E3F000C4C92 /* BaseViewController.swift */; };
+		612ECE8323B2A15100463C9B /* TestSTR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612ECE8223B2A15100463C9B /* TestSTR.storyboard */; };
+		613FE33825CCA9C100A881E8 /* MyCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613FE33725CCA9C100A881E8 /* MyCalenderViewController.swift */; };
+		6150405225AEFD3500C17B39 /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150405125AEFD3500C17B39 /* DataHelper.swift */; };
+		61615EFA25ADB17E00CD33DC /* DateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61615EF925ADB17D00CD33DC /* DateFormatTransform.swift */; };
+		617569FC25ABBDB100C74819 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617569FB25ABBDB100C74819 /* DrawerViewController.swift */; };
+		617978C825AB977600ECBC1D /* PilotCPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617978C725AB977600ECBC1D /* PilotCPS.swift */; };
+		617978CA25AB981900ECBC1D /* CurrencyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617978C925AB981900ECBC1D /* CurrencyPost.swift */; };
+		617D4B0223B4D8410079B67F /* SyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D4B0123B4D8410079B67F /* SyncViewController.swift */; };
+		617D4B0423B4DB850079B67F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D4B0323B4DB850079B67F /* Reachability.swift */; };
+		617D4B0623B4FFCD0079B67F /* TEstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D4B0523B4FFCD0079B67F /* TEstViewController.swift */; };
+		617DB97A23B78F3F0007DCE3 /* DirectoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DB97923B78F3E0007DCE3 /* DirectoryViewCell.swift */; };
+		617E9AF725AC55A300B99DDF /* DrawerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E9AF625AC55A200B99DDF /* DrawerViewCell.swift */; };
+		617E9AFB25AC5E6700B99DDF /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E9AFA25AC5E6700B99DDF /* RoundedImage.swift */; };
+		617E9AFD25AC618A00B99DDF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E9AFC25AC618A00B99DDF /* Extensions.swift */; };
+		617E9AFF25AC730F00B99DDF /* MyCurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E9AFE25AC730E00B99DDF /* MyCurrenciesViewController.swift */; };
+		617E9B0125AC753A00B99DDF /* CurrencyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617E9B0025AC753A00B99DDF /* CurrencyViewCell.swift */; };
+		617F106325AD882B00089342 /* MySchedulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F106225AD882B00089342 /* MySchedulesViewController.swift */; };
+		6180DF7F23B37ED9005C9B13 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6180DF7E23B37ED9005C9B13 /* RoundedButton.swift */; };
+		6180DF8223B3AA09005C9B13 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6180DF8123B3AA09005C9B13 /* APIHelper.swift */; };
+		6180DF8523B3AD7B005C9B13 /* Pilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6180DF8423B3AD7B005C9B13 /* Pilot.swift */; };
+		61830F7125AE4445000C8799 /* CreateFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61830F7025AE4445000C8799 /* CreateFlightViewController.swift */; };
+		6185D4FB23B6110F00FBAF28 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6185D4FA23B6110E00FBAF28 /* FileHelper.swift */; };
+		6185D4FD23B625F600FBAF28 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6185D4FC23B625F600FBAF28 /* FileDownloader.swift */; };
+		6187AF3425AB473800846F8C /* MyCurrency_Bak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF3325AB473800846F8C /* MyCurrency_Bak.swift */; };
+		6187AF3625AB48F300846F8C /* MyTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF3525AB48F200846F8C /* MyTraining.swift */; };
+		6187AF3825AB4BA900846F8C /* MySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF3725AB4BA900846F8C /* MySchedule.swift */; };
+		6187AF3B25AB51B000846F8C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF3A25AB51B000846F8C /* Currency.swift */; };
+		6187AF3D25AB52E400846F8C /* CrewPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF3C25AB52E400846F8C /* CrewPosition.swift */; };
+		6187AF3F25AB534B00846F8C /* LegType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF3E25AB534B00846F8C /* LegType.swift */; };
+		6187AF4125AB538500846F8C /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF4025AB538500846F8C /* Aircraft.swift */; };
+		6187AF4525AB558600846F8C /* FlightLogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF4425AB558600846F8C /* FlightLogData.swift */; };
+		6187AF4725AB592000846F8C /* VerifyLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187AF4625AB592000846F8C /* VerifyLimit.swift */; };
+		618A432A23B6A1F800001BF9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A432923B6A1F800001BF9 /* MainViewController.swift */; };
+		618A432C23B6A5D600001BF9 /* DirectoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A432B23B6A5D600001BF9 /* DirectoryVM.swift */; };
+		618A9B9323B8A09A004B2CD0 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A9B9223B8A09A004B2CD0 /* FileViewController.swift */; };
+		618A9B9523B8B11E004B2CD0 /* FileViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A9B9423B8B11E004B2CD0 /* FileViewCell.swift */; };
+		618D2E1D25B0540300AC4FFF /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D2E1C25B0540300AC4FFF /* CustomSwitch.swift */; };
+		61926FFD25B1D4E0009C8EF9 /* LegPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61926FFC25B1D4D4009C8EF9 /* LegPost.swift */; };
+		61926FFF25B1E62D009C8EF9 /* VerifyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61926FFE25B1E62D009C8EF9 /* VerifyResponse.swift */; };
+		619EC3F125CCF5E200761FF9 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619EC3F025CCF5E100761FF9 /* CustomView.swift */; };
+		61C0A16D23B2307A00715E21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C0A16C23B2307A00715E21 /* LoginViewController.swift */; };
+		61C0A16F23B230B200715E21 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C0A16E23B230B200715E21 /* IntroViewController.swift */; };
+		61C793A823B53926001B14DC /* EFBDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C793A723B53926001B14DC /* EFBDirectory.swift */; };
+		61C793AA23B539F1001B14DC /* EFBFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C793A923B539F1001B14DC /* EFBFile.swift */; };
 		61CEC2C623B111F00078BD9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC2C523B111F00078BD9E /* AppDelegate.swift */; };
 		61CEC2C823B111F00078BD9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC2C723B111F00078BD9E /* ViewController.swift */; };
 		61CEC2CB23B111F00078BD9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC2C923B111F00078BD9E /* Main.storyboard */; };
 		61CEC2CE23B111F00078BD9E /* EFB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC2CC23B111F00078BD9E /* EFB.xcdatamodeld */; };
 		61CEC2D023B111FE0078BD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC2CF23B111FE0078BD9E /* Assets.xcassets */; };
 		61CEC2D323B111FE0078BD9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC2D123B111FE0078BD9E /* LaunchScreen.storyboard */; };
+		61D02D5825AD7C4700AAEDE1 /* TrainingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D02D5725AD7C4700AAEDE1 /* TrainingViewCell.swift */; };
+		61D02D5A25AD7CBF00AAEDE1 /* MyTrainingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D02D5925AD7CBF00AAEDE1 /* MyTrainingsViewController.swift */; };
+		61D02D5C25AD868C00AAEDE1 /* ScheduleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D02D5B25AD868C00AAEDE1 /* ScheduleViewCell.swift */; };
+		61FB48A225B3433500194321 /* SaveLegModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FB48A125B3433500194321 /* SaveLegModel.swift */; };
+		61FB48A425B3463300194321 /* SaveLegResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FB48A325B3463300194321 /* SaveLegResponse.swift */; };
+		61FB48A625B3511600194321 /* ConfirmLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FB48A525B3511600194321 /* ConfirmLogViewController.swift */; };
+		B28645E839E21D5D148DCA59 /* Pods_EFB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B592526628850EE24C2A1 /* Pods_EFB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		611FCCBF25AF75F300932E36 /* FlightCurrencyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCurrencyViewCell.swift; sourceTree = "<group>"; };
+		611FCCC125AF764800932E36 /* FlightLegViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLegViewCell.swift; sourceTree = "<group>"; };
+		612E8B6E23B24E3F000C4C92 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		612ECE8223B2A15100463C9B /* TestSTR.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestSTR.storyboard; sourceTree = "<group>"; };
+		613FE33725CCA9C100A881E8 /* MyCalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalenderViewController.swift; sourceTree = "<group>"; };
+		6150405125AEFD3500C17B39 /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		61615EF925ADB17D00CD33DC /* DateFormatTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatTransform.swift; sourceTree = "<group>"; };
+		617569FB25ABBDB100C74819 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		617978C725AB977600ECBC1D /* PilotCPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotCPS.swift; sourceTree = "<group>"; };
+		617978C925AB981900ECBC1D /* CurrencyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPost.swift; sourceTree = "<group>"; };
+		617D4B0123B4D8410079B67F /* SyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncViewController.swift; sourceTree = "<group>"; };
+		617D4B0323B4DB850079B67F /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		617D4B0523B4FFCD0079B67F /* TEstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEstViewController.swift; sourceTree = "<group>"; };
+		617DB97923B78F3E0007DCE3 /* DirectoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewCell.swift; sourceTree = "<group>"; };
+		617E9AF625AC55A200B99DDF /* DrawerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewCell.swift; sourceTree = "<group>"; };
+		617E9AFA25AC5E6700B99DDF /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		617E9AFC25AC618A00B99DDF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		617E9AFE25AC730E00B99DDF /* MyCurrenciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCurrenciesViewController.swift; sourceTree = "<group>"; };
+		617E9B0025AC753A00B99DDF /* CurrencyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewCell.swift; sourceTree = "<group>"; };
+		617F106225AD882B00089342 /* MySchedulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchedulesViewController.swift; sourceTree = "<group>"; };
+		6180DF7E23B37ED9005C9B13 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		6180DF8123B3AA09005C9B13 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		6180DF8423B3AD7B005C9B13 /* Pilot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilot.swift; sourceTree = "<group>"; };
+		61830F7025AE4445000C8799 /* CreateFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFlightViewController.swift; sourceTree = "<group>"; };
+		6185D4FA23B6110E00FBAF28 /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		6185D4FC23B625F600FBAF28 /* FileDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
+		6187AF3325AB473800846F8C /* MyCurrency_Bak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCurrency_Bak.swift; sourceTree = "<group>"; };
+		6187AF3525AB48F200846F8C /* MyTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTraining.swift; sourceTree = "<group>"; };
+		6187AF3725AB4BA900846F8C /* MySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchedule.swift; sourceTree = "<group>"; };
+		6187AF3A25AB51B000846F8C /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		6187AF3C25AB52E400846F8C /* CrewPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewPosition.swift; sourceTree = "<group>"; };
+		6187AF3E25AB534B00846F8C /* LegType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegType.swift; sourceTree = "<group>"; };
+		6187AF4025AB538500846F8C /* Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
+		6187AF4425AB558600846F8C /* FlightLogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLogData.swift; sourceTree = "<group>"; };
+		6187AF4625AB592000846F8C /* VerifyLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyLimit.swift; sourceTree = "<group>"; };
+		618A432923B6A1F800001BF9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		618A432B23B6A5D600001BF9 /* DirectoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryVM.swift; sourceTree = "<group>"; };
+		618A9B9223B8A09A004B2CD0 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		618A9B9423B8B11E004B2CD0 /* FileViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewCell.swift; sourceTree = "<group>"; };
+		618D2E1C25B0540300AC4FFF /* CustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
+		61926FFC25B1D4D4009C8EF9 /* LegPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegPost.swift; sourceTree = "<group>"; };
+		61926FFE25B1E62D009C8EF9 /* VerifyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyResponse.swift; sourceTree = "<group>"; };
+		619EC3F025CCF5E100761FF9 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		61C0A16C23B2307A00715E21 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		61C0A16E23B230B200715E21 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		61C793A723B53926001B14DC /* EFBDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFBDirectory.swift; sourceTree = "<group>"; };
+		61C793A923B539F1001B14DC /* EFBFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFBFile.swift; sourceTree = "<group>"; };
 		61CEC2C223B111F00078BD9E /* EFB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CEC2C523B111F00078BD9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61CEC2C723B111F00078BD9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +125,15 @@
 		61CEC2CF23B111FE0078BD9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61CEC2D223B111FE0078BD9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61CEC2D423B111FE0078BD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D02D5725AD7C4700AAEDE1 /* TrainingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewCell.swift; sourceTree = "<group>"; };
+		61D02D5925AD7CBF00AAEDE1 /* MyTrainingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTrainingsViewController.swift; sourceTree = "<group>"; };
+		61D02D5B25AD868C00AAEDE1 /* ScheduleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewCell.swift; sourceTree = "<group>"; };
+		61FB48A125B3433500194321 /* SaveLegModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLegModel.swift; sourceTree = "<group>"; };
+		61FB48A325B3463300194321 /* SaveLegResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLegResponse.swift; sourceTree = "<group>"; };
+		61FB48A525B3511600194321 /* ConfirmLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLogViewController.swift; sourceTree = "<group>"; };
+		6403C952863F886F52D2CCE0 /* Pods-EFB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFB.debug.xcconfig"; path = "Target Support Files/Pods-EFB/Pods-EFB.debug.xcconfig"; sourceTree = "<group>"; };
+		A5998B8C5A7B43679550BD5A /* Pods-EFB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFB.release.xcconfig"; path = "Target Support Files/Pods-EFB/Pods-EFB.release.xcconfig"; sourceTree = "<group>"; };
+		EB1B592526628850EE24C2A1 /* Pods_EFB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +141,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28645E839E21D5D148DCA59 /* Pods_EFB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6180DF7D23B37D21005C9B13 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				6180DF7E23B37ED9005C9B13 /* RoundedButton.swift */,
+				617DB97923B78F3E0007DCE3 /* DirectoryViewCell.swift */,
+				618A9B9423B8B11E004B2CD0 /* FileViewCell.swift */,
+				617E9AF625AC55A200B99DDF /* DrawerViewCell.swift */,
+				617E9AFA25AC5E6700B99DDF /* RoundedImage.swift */,
+				617E9B0025AC753A00B99DDF /* CurrencyViewCell.swift */,
+				61D02D5725AD7C4700AAEDE1 /* TrainingViewCell.swift */,
+				61D02D5B25AD868C00AAEDE1 /* ScheduleViewCell.swift */,
+				611FCCBF25AF75F300932E36 /* FlightCurrencyViewCell.swift */,
+				611FCCC125AF764800932E36 /* FlightLegViewCell.swift */,
+				618D2E1C25B0540300AC4FFF /* CustomSwitch.swift */,
+				619EC3F025CCF5E100761FF9 /* CustomView.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		6180DF8023B3A9D7005C9B13 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6180DF8123B3AA09005C9B13 /* APIHelper.swift */,
+				617D4B0323B4DB850079B67F /* Reachability.swift */,
+				6185D4FA23B6110E00FBAF28 /* FileHelper.swift */,
+				6185D4FC23B625F600FBAF28 /* FileDownloader.swift */,
+				61615EF925ADB17D00CD33DC /* DateFormatTransform.swift */,
+				6150405125AEFD3500C17B39 /* DataHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6180DF8323B3AD5F005C9B13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6187AF3925AB517900846F8C /* FlightLog */,
+				6180DF8423B3AD7B005C9B13 /* Pilot.swift */,
+				6187AF3325AB473800846F8C /* MyCurrency_Bak.swift */,
+				61C793A723B53926001B14DC /* EFBDirectory.swift */,
+				61C793A923B539F1001B14DC /* EFBFile.swift */,
+				618A432B23B6A5D600001BF9 /* DirectoryVM.swift */,
+				6187AF3525AB48F200846F8C /* MyTraining.swift */,
+				6187AF3725AB4BA900846F8C /* MySchedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6187AF3925AB517900846F8C /* FlightLog */ = {
+			isa = PBXGroup;
+			children = (
+				6187AF4825AB59DC00846F8C /* Post */,
+				6187AF3A25AB51B000846F8C /* Currency.swift */,
+				6187AF3C25AB52E400846F8C /* CrewPosition.swift */,
+				6187AF3E25AB534B00846F8C /* LegType.swift */,
+				6187AF4025AB538500846F8C /* Aircraft.swift */,
+				6187AF4425AB558600846F8C /* FlightLogData.swift */,
+			);
+			path = FlightLog;
+			sourceTree = "<group>";
+		};
+		6187AF4825AB59DC00846F8C /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				6187AF4625AB592000846F8C /* VerifyLimit.swift */,
+				617978C725AB977600ECBC1D /* PilotCPS.swift */,
+				617978C925AB981900ECBC1D /* CurrencyPost.swift */,
+				61926FFC25B1D4D4009C8EF9 /* LegPost.swift */,
+				61926FFE25B1E62D009C8EF9 /* VerifyResponse.swift */,
+				61FB48A125B3433500194321 /* SaveLegModel.swift */,
+				61FB48A325B3463300194321 /* SaveLegResponse.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
 		61CEC2B923B111F00078BD9E = {
 			isa = PBXGroup;
 			children = (
 				61CEC2C423B111F00078BD9E /* EFB */,
 				61CEC2C323B111F00078BD9E /* Products */,
+				A5FFDA5AF1F594A4665FC93B /* Pods */,
+				E9BAE0F937DA6226612B85EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +243,9 @@
 		61CEC2C423B111F00078BD9E /* EFB */ = {
 			isa = PBXGroup;
 			children = (
+				6180DF8323B3AD5F005C9B13 /* Models */,
+				6180DF8023B3A9D7005C9B13 /* Helpers */,
+				6180DF7D23B37D21005C9B13 /* CustomUI */,
 				61CEC2C523B111F00078BD9E /* AppDelegate.swift */,
 				61CEC2C723B111F00078BD9E /* ViewController.swift */,
 				61CEC2C923B111F00078BD9E /* Main.storyboard */,
@@ -63,8 +253,41 @@
 				61CEC2D123B111FE0078BD9E /* LaunchScreen.storyboard */,
 				61CEC2D423B111FE0078BD9E /* Info.plist */,
 				61CEC2CC23B111F00078BD9E /* EFB.xcdatamodeld */,
+				61C0A16C23B2307A00715E21 /* LoginViewController.swift */,
+				61C0A16E23B230B200715E21 /* IntroViewController.swift */,
+				612E8B6E23B24E3F000C4C92 /* BaseViewController.swift */,
+				612ECE8223B2A15100463C9B /* TestSTR.storyboard */,
+				617D4B0123B4D8410079B67F /* SyncViewController.swift */,
+				617D4B0523B4FFCD0079B67F /* TEstViewController.swift */,
+				618A432923B6A1F800001BF9 /* MainViewController.swift */,
+				618A9B9223B8A09A004B2CD0 /* FileViewController.swift */,
+				617569FB25ABBDB100C74819 /* DrawerViewController.swift */,
+				617E9AFC25AC618A00B99DDF /* Extensions.swift */,
+				617E9AFE25AC730E00B99DDF /* MyCurrenciesViewController.swift */,
+				61D02D5925AD7CBF00AAEDE1 /* MyTrainingsViewController.swift */,
+				617F106225AD882B00089342 /* MySchedulesViewController.swift */,
+				61830F7025AE4445000C8799 /* CreateFlightViewController.swift */,
+				61FB48A525B3511600194321 /* ConfirmLogViewController.swift */,
+				613FE33725CCA9C100A881E8 /* MyCalenderViewController.swift */,
 			);
 			path = EFB;
+			sourceTree = "<group>";
+		};
+		A5FFDA5AF1F594A4665FC93B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6403C952863F886F52D2CCE0 /* Pods-EFB.debug.xcconfig */,
+				A5998B8C5A7B43679550BD5A /* Pods-EFB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9BAE0F937DA6226612B85EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB1B592526628850EE24C2A1 /* Pods_EFB.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61CEC2D723B111FE0078BD9E /* Build configuration list for PBXNativeTarget "EFB" */;
 			buildPhases = (
+				5241E111F0AAE1A66292A89F /* [CP] Check Pods Manifest.lock */,
 				61CEC2BE23B111F00078BD9E /* Sources */,
 				61CEC2BF23B111F00078BD9E /* Frameworks */,
 				61CEC2C023B111F00078BD9E /* Resources */,
+				6D4DABC89F052160896CF203 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +324,7 @@
 				TargetAttributes = {
 					61CEC2C123B111F00078BD9E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -127,20 +353,115 @@
 			files = (
 				61CEC2D323B111FE0078BD9E /* LaunchScreen.storyboard in Resources */,
 				61CEC2D023B111FE0078BD9E /* Assets.xcassets in Resources */,
+				612ECE8323B2A15100463C9B /* TestSTR.storyboard in Resources */,
 				61CEC2CB23B111F00078BD9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5241E111F0AAE1A66292A89F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EFB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4DABC89F052160896CF203 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EFB/Pods-EFB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EFB/Pods-EFB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EFB/Pods-EFB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61CEC2BE23B111F00078BD9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C0A16F23B230B200715E21 /* IntroViewController.swift in Sources */,
+				61C0A16D23B2307A00715E21 /* LoginViewController.swift in Sources */,
+				617E9AFB25AC5E6700B99DDF /* RoundedImage.swift in Sources */,
+				61615EFA25ADB17E00CD33DC /* DateFormatTransform.swift in Sources */,
+				617D4B0623B4FFCD0079B67F /* TEstViewController.swift in Sources */,
+				6187AF3F25AB534B00846F8C /* LegType.swift in Sources */,
 				61CEC2CE23B111F00078BD9E /* EFB.xcdatamodeld in Sources */,
+				617569FC25ABBDB100C74819 /* DrawerViewController.swift in Sources */,
+				61D02D5825AD7C4700AAEDE1 /* TrainingViewCell.swift in Sources */,
+				6150405225AEFD3500C17B39 /* DataHelper.swift in Sources */,
+				617E9B0125AC753A00B99DDF /* CurrencyViewCell.swift in Sources */,
+				618A9B9523B8B11E004B2CD0 /* FileViewCell.swift in Sources */,
+				611FCCC225AF764800932E36 /* FlightLegViewCell.swift in Sources */,
+				61926FFF25B1E62D009C8EF9 /* VerifyResponse.swift in Sources */,
+				617E9AF725AC55A300B99DDF /* DrawerViewCell.swift in Sources */,
+				61C793A823B53926001B14DC /* EFBDirectory.swift in Sources */,
+				613FE33825CCA9C100A881E8 /* MyCalenderViewController.swift in Sources */,
+				6187AF3B25AB51B000846F8C /* Currency.swift in Sources */,
+				6187AF3425AB473800846F8C /* MyCurrency_Bak.swift in Sources */,
+				61C793AA23B539F1001B14DC /* EFBFile.swift in Sources */,
+				617F106325AD882B00089342 /* MySchedulesViewController.swift in Sources */,
+				6187AF3D25AB52E400846F8C /* CrewPosition.swift in Sources */,
+				618A9B9323B8A09A004B2CD0 /* FileViewController.swift in Sources */,
 				61CEC2C823B111F00078BD9E /* ViewController.swift in Sources */,
+				617978C825AB977600ECBC1D /* PilotCPS.swift in Sources */,
+				61926FFD25B1D4E0009C8EF9 /* LegPost.swift in Sources */,
+				618A432A23B6A1F800001BF9 /* MainViewController.swift in Sources */,
+				6180DF8223B3AA09005C9B13 /* APIHelper.swift in Sources */,
+				617E9AFD25AC618A00B99DDF /* Extensions.swift in Sources */,
+				618D2E1D25B0540300AC4FFF /* CustomSwitch.swift in Sources */,
+				61FB48A625B3511600194321 /* ConfirmLogViewController.swift in Sources */,
+				611FCCC025AF75F300932E36 /* FlightCurrencyViewCell.swift in Sources */,
+				6180DF7F23B37ED9005C9B13 /* RoundedButton.swift in Sources */,
+				6187AF3625AB48F300846F8C /* MyTraining.swift in Sources */,
+				6187AF3825AB4BA900846F8C /* MySchedule.swift in Sources */,
+				618A432C23B6A5D600001BF9 /* DirectoryVM.swift in Sources */,
+				617978CA25AB981900ECBC1D /* CurrencyPost.swift in Sources */,
+				6187AF4525AB558600846F8C /* FlightLogData.swift in Sources */,
+				61FB48A225B3433500194321 /* SaveLegModel.swift in Sources */,
 				61CEC2C623B111F00078BD9E /* AppDelegate.swift in Sources */,
+				61D02D5C25AD868C00AAEDE1 /* ScheduleViewCell.swift in Sources */,
+				617D4B0423B4DB850079B67F /* Reachability.swift in Sources */,
+				6187AF4125AB538500846F8C /* Aircraft.swift in Sources */,
+				6187AF4725AB592000846F8C /* VerifyLimit.swift in Sources */,
+				617DB97A23B78F3F0007DCE3 /* DirectoryViewCell.swift in Sources */,
+				61FB48A425B3463300194321 /* SaveLegResponse.swift in Sources */,
+				61830F7125AE4445000C8799 /* CreateFlightViewController.swift in Sources */,
+				617E9AFF25AC730F00B99DDF /* MyCurrenciesViewController.swift in Sources */,
+				612E8B6F23B24E40000C4C92 /* BaseViewController.swift in Sources */,
+				6180DF8523B3AD7B005C9B13 /* Pilot.swift in Sources */,
+				617D4B0223B4D8410079B67F /* SyncViewController.swift in Sources */,
+				6185D4FD23B625F600FBAF28 /* FileDownloader.swift in Sources */,
+				61D02D5A25AD7CBF00AAEDE1 /* MyTrainingsViewController.swift in Sources */,
+				619EC3F125CCF5E200761FF9 /* CustomView.swift in Sources */,
+				6185D4FB23B6110F00FBAF28 /* FileHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,16 +605,24 @@
 		};
 		61CEC2D823B111FE0078BD9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6403C952863F886F52D2CCE0 /* Pods-EFB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.7.0;
+				DEVELOPMENT_TEAM = WR2774ZVAL;
 				INFOPLIST_FILE = EFB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.6.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.reed.EFB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,16 +630,23 @@
 		};
 		61CEC2D923B111FE0078BD9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5998B8C5A7B43679550BD5A /* Pods-EFB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.7.0;
+				DEVELOPMENT_TEAM = WR2774ZVAL;
 				INFOPLIST_FILE = EFB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.6.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.reed.EFB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

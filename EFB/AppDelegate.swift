@@ -8,15 +8,16 @@
 
 import UIKit
 import CoreData
+import MMDrawerController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var centerContainer: MMDrawerController?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 
@@ -87,6 +88,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    func startDrawerView(){
+        
+        let mainStoryboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+      
+        let mainView = mainStoryboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+        let drawerView = mainStoryboard.instantiateViewController(withIdentifier: "DrawerViewController") as! DrawerViewController
+        
+        let leftNav = UINavigationController(rootViewController: drawerView)
+        let centerNav = UINavigationController(rootViewController: mainView)
+        
+        centerContainer = MMDrawerController(center: centerNav, leftDrawerViewController: leftNav)
+        
+        centerContainer?.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView
+        centerContainer?.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView
+        
+        window!.rootViewController = centerContainer
+        window!.makeKeyAndVisible()
     }
 
 }
